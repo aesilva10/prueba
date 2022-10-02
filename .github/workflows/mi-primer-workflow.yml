@@ -1,10 +1,10 @@
-name: Hola mundo
+name: Hola mundo #Nombre de lo que se va a probar Tests unitarios
 on:
   push:
     branches: [ main ]
 jobs:
   Mi-primer-job:
-    name: Mi primer job
+    name: Mi primer job #Nombre de los jobs
     runs-on: ubuntu-latest
     steps:
     - name: Imprimir 
