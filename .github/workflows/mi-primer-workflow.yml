@@ -1,7 +1,7 @@
 name: Prueba git actions
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   Mi-primer-job:
     name: Mi primer job
